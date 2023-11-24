@@ -1,0 +1,516 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>template</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="bootstrap1.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.min.css">
+  
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+        
+    <script>
+        $(document).ready(function(){
+            $(".black").addClass("anim1")
+            $(window).scroll(function(){
+                var scroll = $(window).scrollTop();
+                if(scroll>100){
+                    $(".navbar").addClass("bc");
+                }
+                else{
+                    $(".navbar").removeClass("bc");
+                }
+
+                if(scroll>200){
+                    $(".eius").addClass("anim1");
+
+                }
+                if(scroll>50)
+                $(".mar").addClass("anim2")
+            if(scroll>150)
+            $(".reuu").addClass("anim1")
+
+            if(scroll>500)
+            $(".eus").addClass("anim5")
+
+            if(scroll>1200)
+            $(".ser").addClass("anim5")
+
+            if(scroll>1400)
+            $(".lor").addClass("anim5")
+
+            if(scroll>1500)
+            $(".lorr").addClass("anim5")
+
+            if(scroll>1700)
+            $(".lorrr").addClass("anim5")
+
+            if(scroll>1850)
+            $(".fut").addClass("anim5")
+
+            if(scroll>2200)
+            $(".coro").addClass("anim3")
+
+            if(scroll>2200)
+            $(".aan").addClass("anim3")
+
+            if(scroll>2400)
+            $(".sunt").addClass("anim3")
+
+            if(scroll>2400)
+            $(".aut").addClass("anim3")
+
+            if(scroll>2400)
+            $(".ims").addClass("anim3")
+ 
+            if(scroll>2500)
+            $(".fut").addClass("anim5")
+
+            if(scroll>2600)
+            $(".btan").addClass("anim5")
+
+            if(scroll>2700)
+            $(".imain").addClass("anim5")
+            });
+        });
+    </script>
+
+<script>
+    $(document).ready(function(){
+        $('.count').each(function () {
+$(this).prop('Counter',0).animate({
+    Counter: $(this).text()
+}, {
+    duration: 4000,
+    easing: 'swing',
+    step: function (now) {
+        $(this).text(Math.ceil(now));
+    }
+});
+});
+    });
+</script>
+
+    <nav class="navbar navbar-expand-lg  navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text mm" href="#">Append </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="#"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-black" href="#"></a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link text" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text" href="#pink">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text" href="#ser">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text" href="#port">Portfolio</a>
+                </li>  
+                <li class="nav-item">
+                  <a class="nav-link text" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text" href="#">dropdown</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text" href="#"> <button class="hide">GetStarted</button></a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+        <button class="gs">GetStarted</button>
+      </nav>   
+    </div>
+
+       <section class="bkimg">
+            <div class="dar">
+                <div class="black">
+       <div class="seach">
+        <h1>Welcome to Our Website </h1>
+       <p class="wer"> We are team of talented designers  making websites with Bootstrap</p>
+        </div>
+        <div class="col-lg-4">
+            <form action="#" class="sign-up-form d-flex" data-aos="fade-up" data-aos-delay="300">
+              <input type="text" class="form-control" placeholder="Enter email address">
+              <input type="submit" class="btn btn-primary" value="Sign up">
+            </form>
+          </div>
+        </div>
+    </div>
+    </section>
+    <div class="container-fluid" data-aos="fade-up">
+        <div class="mar">
+        <div class="row gy-4">
+            <div class="col-sm-2">
+                <div class="log">
+                    <img src="images/myob.png" alt=""  class="pic" height="50%"width="50%">
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="log">
+                    <img src="images/belimo.png" alt="" class="pic"  height="50%"width="50%">
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="log">
+                    <img src="images/lifgrp.png" alt="" class="pic"  height="50%"width="50%">
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="log">
+                    <img src="images/graybo.png" alt="" class="pic"  height="50%"width="50%">
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="log">
+                    <img src="images/citrus.png" alt="" class="pic"  height="50%"width="50%">
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <div class="log">
+                    <img src="images/turstly.png" alt="" class="pic"  height="50%" width="50%">
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="pink" id="pink">
+                    <button class="ab">About Us</button>
+                    <h1>Ducimus rerum libero reprehenderit cumque</h1>
+                    <p>Ipsa sint sit. Quis ducimus tempore dolores impedit et dolor cumque alias maxime. Enim reiciendis minus et rerum hic non. Dicta quas cum quia maiores iure. Quidem nulla qui assumenda incidunt voluptatem tempora deleniti soluta.</p> 
+                    <button class="rea">Read More <i class="bi-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="eius">
+                    <div class="circle">
+                    <i class="bi-buildings"></i>
+                </div>
+                    <h2>Eius provident</h2>
+                    <p>Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                </div>
+
+                <div class="eus">
+                    <div class="circle">
+                    <i class="bi-buildings"></i>
+                </div>
+                    <h2>Eius provident</h2>
+                    <p>Magni repellendus vel ullam hic officia accusantium ipsa dolor omnis dolor voluptatem</p>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="reuu">
+                    <div class="circle">
+                    <i class="bi-clipboard-pulse"></i>
+                </div>
+                <div>
+                    <h2>Rerum aperiam</h2>
+                    <p>Autem saepe animi et aut aspernatur culpa facere. Rerum saepe rerum voluptates quia</p>
+                </div>
+                </div>
+                <div class="eus">
+                    <div class="circle">
+                    <i class="bi-graph-up-arrow"></i>
+                </div>
+                    <h2>Delares sapiente</h2>
+         <p>Sint et dolor voluptas minus possimus nostrum. Reiciendis commodi eligendi omnis quideme lorenda</p>
+        </div>  
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+        </div>
+    </div>
+    <section class="numbback">
+        <div class="dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3"><div class="flx"><span class="count">323</span> <br><span class="cli">CLIENTS</span></div> </div>
+                <div class="col-sm-3"> <div class="flx"><span class="count">521</span> <br> <span class="cli">PROJECT</span></div></div>
+                <div class="col-sm-3"><div class="flx"><span class="count">1453</span>  <br> <span class="cli">HOUR OF SUPPORT</span></div></div>
+                <div class="col-sm-3"><div class="flx"><span class="count">32</span>  <br> <span class="cli">WORKER</span></div></div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ser">
+                <h1 id="ser">service</h1>
+                <div class="red"></div> 
+                <div class="re"></div>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </div>
+           </div>
+    </div>
+</div>
+ <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="lor">
+                        <div class="ro"></div><div class="dr"></div> <br>
+                        <i class="bi-briefcase"></i>
+                        <h4>lorem ipsum</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatibus tempora dolores cumque quasi, consectetur corporis non.</p>
+                    </div>
+                </div> <br>
+                <div class="col-sm-6">
+                    <div class="lor">
+                        <div class="ro"></div><div class="dr"></div><br>
+                        <i class="bi-card-checklist"></i>
+                        <h4>dolor sitema</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatibus tempora dolores cumque quasi, consectetur corporis non.</p>
+                    </div>
+                </div>
+            </div>
+        </div> <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="lorr">
+                        <div class="ro"></div><div class="dr"></div> <br>
+                        <i class="bi-bar-chart"></i>
+                        <h4>sed ut perispiciatis</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatibus tempora dolores cumque quasi, consectetur corporis non.</p>
+                    </div>
+                </div> <br>
+                <div class="col-sm-6">
+                    <div class="lorr">
+                        <div class="ro"></div><div class="dr"></div><br>
+                        <i class="bi-binoculars"></i>
+                        <h4>magni dolores sitema</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatibus tempora dolores cumque quasi, consectetur corporis non.</p>
+                    </div>
+                </div>
+            </div>
+        </div> <br>
+
+        <div class="container fade-up">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="lorrr">
+                        <div class="ro"></div><div class="dr"></div> <br>
+                        <i class="bi-brightness-high"></i>
+                        <h4>nemo enim</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatibus tempora dolores cumque quasi, consectetur corporis non.</p>
+                    </div>
+                </div> <br>
+                <div class="col-sm-6">
+                    <div class="lorrr">
+                        <div class="ro"></div><div class="dr"></div><br>
+                        <i class="bi-calendar4-week"></i>
+                       <a href=""></a> <h4>eiusmod tempor</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptatibus tempora dolores cumque quasi, consectetur corporis non.</p>
+                    </div>
+                </div>
+            </div>
+        </div> <br> <br><br><br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="fut">
+                    <h1>Future</h1>
+                    <div class="pl"></div> 
+                    <div class="pla"></div><br>
+                    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+                </div>
+               </div>
+        </div>
+    </div> <br><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="coro">
+                    <h4>Corporis temporibus maiores <br> provident</h4>
+                    <p>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+                    <button class="getst">Get Start</button>
+                </div>
+            </div>
+            <div class="col-sm-7">
+                <div class="aan">
+                <div class="ima">
+                </div>
+                <img src="images/light.jpg" alt="" class="val">
+            </div>
+        </div>
+        </div>
+    </div>
+     <br><br> 
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-5">
+                <div class="ims">
+                <img src="images/round.jpg" alt="" width="100%" width="100%">
+            </div>
+        </div>
+            <div class="col-sm-7">
+                <div class="sunt">
+                    <h2>Sunt consequatur adut nulla</h2>
+                    <p>Cupiditate placeat cupiditate placeat est ipsam culpa. Delectus quia minima quod. Sunt saepe odit aut quia voluptatem hic voluptas dolor doloremque.</p>  </div> <br>
+                    <ul class="lin">
+                        <div class="aut">
+                        <i class="bi-check">
+                            Ullamco laboris nisi ut aliquip ex ea commodo consequat.</i> <br>
+                        <i class="bi-check">
+                            Duis aute irure dolor in reprehenderit in voluptate velit.</i><br>
+                        <i class="bi-check">Facilis ut et voluptatem aperiam. Autem soluta ad fugiat
+                        </i>
+                    </div>
+                    </ul>
+            </div>
+        </div>
+    </div>
+ <br><br><br><br><br>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="fut">
+                <h1 id="port">Portfolio</h1>
+                <div class="pl"></div> 
+                <div class="pla"></div><br>
+                <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+            </div>
+           </div>
+    </div>
+</div>
+<div class="btan">
+<button class="all">
+    All
+</button>
+<button class="al">
+  <a href="b" target="app">App</a> 
+</button>
+<button class="al">
+    Card
+</button>
+<button class="al">
+    Web
+</button>
+</div>
+ <br><br><br>
+ <iframe></iframe>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="cuim">
+                <img src="images/curlo.jpg" alt="" width="100%">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="t">
+                <img src="images/cofe.jpg" alt=""width="100%">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="fl">
+                <img src="images/flower.jpg" alt=""width="100%">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="se">
+                <img src="images/seat.jpg" alt="" width="100%">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="l">
+                <img src="images/lightlamp.jpg" alt=""  width="100%">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="s">
+                <img src="images/sunglass.jpg" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <div class="w">
+                <img src="images/watch.jpg" alt="" width="100%">
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="f">
+                <img src="images/focus.jpg" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <div class="d">
+                <img src="images/drings.jpg" alt="" width="100%">
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+
+<style>
+    .navbar{
+        background-color: none;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 70px;
+        z-index: 50;
+    }
+    .bc{
+        background-color: rgb(255, 255, 255);
+    }
+</style>

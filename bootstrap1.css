@@ -1,0 +1,419 @@
+.ed{
+    color: red;
+}
+.nav-item{
+    margin-right: 28px;
+    color: #cacaca;
+}
+.btr{
+    border: 0px;
+    background-color: rgb(196, 78, 78);
+    margin-top: -30px;
+    width: 100px;
+    color: white;
+}
+.hom{
+    text-align: left;
+    margin-left: -55px;
+    font-size: 28px;
+    word-spacing: -8px;
+    margin-top: -20px;
+}
+.bkimg{
+    background-image: url(images/template\ bkimg.jpg);
+    background-size: cover;
+    z-index: 1;
+    object-fit: cover;
+}
+.gs{
+    background-color: #e34343;
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+}
+.whit{
+    background-color: white;
+    height: 50px;
+}
+.pic{
+    margin-top: 10px;
+}
+.seach{
+    text-align: left;
+    padding-top: 230px;
+    margin-left: 65px;
+    color: white;
+    height: 600px;
+}
+.col-lg-4{
+    margin-top: -17%;
+}
+.seach h1{
+    font-size: 100px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background:url(images/back.png);
+    -webkit-background-clip: text;
+    animation: soo 20s linear infinite;
+}
+@keyframes soo{
+    100%{
+        background-position: 2000px 0;
+    }
+}
+
+
+.col-lg-4{
+    margin-left: 58px;
+}
+.wer{
+    font-size: 20px;
+}
+.bt{
+    text-align: right;
+    margin-top: -50px;
+}
+.mar{
+    margin-top: 20px;
+    height: 100px;
+    text-align: center;
+}
+.text{
+    color: #a0a0a0!important;
+}
+:hover.text{
+    color: rgb(0, 0, 0)!important;
+}
+.pink{
+    height: 500px;
+    margin-top: 20px;
+    padding-top: 200px;
+    text-align: left;
+    padding-left: 50px;
+}
+.eius{
+
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    margin-top: 70px;
+    border-radius: 8%;
+    padding-top: 32px;
+    opacity: 0;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.118);
+}
+.eus{
+
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 8%;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.118);
+    padding-top: 32px;
+}
+.reuu{
+    height: 300px;
+    background-color: white;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 8%;
+    padding-top: 32px;
+    position: static;
+    box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.118);
+}
+
+.gray{
+    background-color:#f4f4f4;
+    width: 100%;
+}
+
+.rea{
+    margin-left: 110px;
+    border: 0px;
+    background-color:rgb(196, 78, 78) ;
+    border-radius: 10px;
+    font-size: 26px;
+    color: white;
+    width: 230px;
+    height: 60px;
+}
+.circle{
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
+    margin-left: 28px;
+    padding-top: 14px;
+    font-size: xx-large;
+    background-color: #fef6f6;
+    color: #e34343;
+}
+:hover.circle{
+    background-color: rgb(252, 84, 84);
+    color: white;
+}
+.numbback{
+    background-image: url(images/numberback.jpg);
+    background-size: cover;     
+    /* height: 300px; */
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: 900;
+}
+.cli{
+    font-weight: lighter;
+    font-size: 20px;
+}
+.ab{
+    background-color: #ffeded;
+    border: 0px;
+    height: 40px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: -50px;
+    color: #e34343;
+}
+.red{
+    background-color: red;
+    width: 8%;
+    height:2px;
+    align-items: center;
+    margin-left: 35%;
+    margin-top: -28px;
+}
+.ser{
+    text-align: center;
+    margin-top: 50px;
+}
+.ser p{
+    margin-top: 30px;
+}
+.re{
+    width: 8%;
+    height: 2px;
+    background-color: red;
+    margin-left: 57%;
+}
+.ro{
+    background-color: red;
+    width: 40px;
+    height: 2px;
+}
+.dr{
+    background-color: #cacaca;
+    width: 83%;
+    height: 2px;
+    margin-left: 9%;
+    margin-top: -2px;
+}
+:hover.lor   h4{
+    color: red;
+}
+.lor i{
+    font-size: 30px;
+}
+:hover.lorr  h4{
+    color: red;
+}
+.lorr i{
+    font-size: 30px;
+}
+:hover.lorrr   h4{
+    color: red;
+}
+.lorrr i{
+    font-size: 30px;
+}
+
+.fut{
+    text-align: center;
+}
+.pl{
+    width: 10%;
+    background-color: red;
+    height: 2px;
+    margin-left: 32.5%;
+    margin-top: -2.5%;
+}
+.pla{
+    background-color: red;
+width: 10%;
+height: 2px;
+margin-left: 57%;
+}
+.getst{
+    border: 0px;
+    background-color: rgb(196, 78, 78);
+    width: 135px;
+    color: white;
+    border-radius: 5px;
+    height: 38px;
+}
+.coro{
+    margin-top: 60px;
+}
+.ima{
+    background-image: url(images/stare.jpg);
+    height: 300px;
+    background-size: cover;
+    border: 5px solid white;
+    position: relative;
+    margin-left: 20%;
+}
+.val{
+    height: 300px;
+    width: 430px;
+    position: absolute;
+    margin-top: -18%;
+    border: 5px solid white;
+}
+.ims{
+    width: 600px;
+    border: 5px solid white;
+    margin-top: 100px;
+}
+.sunt{
+    margin-top: 20%;
+    margin-left: 30%;
+}
+.lin{
+    line-height: 1.5cm;
+    margin-left: 25%;
+}
+.dar{
+    height: 600px;
+    background-color: #0000005b;
+}
+.dark{
+    background-color: #00000051;
+    padding-top: 150px;
+    height: 300px;
+
+}
+.all{
+    background-color: red;
+    border: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 17px;
+    align-items: center;
+    margin-left: 40%;
+    color: white;
+}
+.al{
+    color: #000;
+    border: none;
+    width: 60px;
+    height: 30px;
+    border-radius: 17px;
+    align-items: center;
+    background-color: white;
+}
+:hover.al{
+    background-color: red;
+    color: white;
+}
+.l{
+    margin-top: -27%;
+}
+.se{
+    margin-top: 7%;
+}
+.s{
+    margin-top: -37%;
+}
+.w{
+    margin-top: -26%;
+}.f{
+    margin-top: -118%;
+}
+.d{
+    margin-top: -86%;
+}
+.fl{
+    display: flex;
+}
+.flx{
+    margin-top: -20px;
+}
+.hide{
+    display: none;
+    background-color: #e34343;
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+}
+.pic{
+    filter: grayscale();
+}
+.pic:hover{
+    filter:none;
+}
+@media(max-width:991px){
+    .gs{
+        display: none;
+    }
+    .hide{
+        display: block;
+    }
+}
+
+.anim1{
+    animation-name: an1;
+    animation-duration: 2s;
+    opacity: 1;
+}
+
+@keyframes an1{
+    from{
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+.anim2{
+    animation-name: ani2;
+    animation-duration: 2s;
+    opacity: 1;
+}
+@keyframes ani2{
+    from{
+        transform: translateY(50px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+
+.anim5{
+    animation-name: ani5;
+    animation-duration: 2s;
+    opacity: 1;
+}
+@keyframes ani5{
+    from{
+        transform: translateY(80px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+.anim3{
+    animation-name: ani3;
+    animation-duration: 2s;
+    opacity: 1;
+}
+@keyframes ani3{
+    from{
+        transform: scale(50%);
+    }
+    to{
+        transform: scale(100%);
+    }
+}
